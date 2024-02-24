@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  height: 700px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+[data-color-mode*='dark'] .login-page11,
+.login-page11 {
+  --login-bg: #2c3338;
+  --login-color: #fff;
+  --login-input: #fff;
+  --login-input-border: #4d5d69;
+  --login-input-hover: #434a52;
+  --login-input-focus: rgba(0, 142, 240, 0.46);
+  --login-input-placeholder: #838383;
+  --login-btn: var(--login-color);
+  --login-btn-bg: #008ef0;
+  --login-btn-focus: rgba(0, 142, 240, 0.26);
+  --login-btn-hover: #0070bd;
+  --login-btn-active: #00528a;
+}
+[data-color-mode*='light'] .login-page11 {
+  --login-bg: #edeff3;
+  --login-color: #3b4148;
+  --login-input: #525d68;
+  --login-input-border: #e2e8f0;
+  --login-input-bg: #d7dee5;
+  --login-input-hover: #b6c3d1;
+  --login-input-focus: rgba(0, 142, 240, 0.26);
+  --login-input-placeholder: #8e98a2;
+  --login-btn: #fff;
+  --login-btn-bg: #008ef0;
+  --login-btn-focus: rgba(0, 142, 240, 0.26);
+  --login-btn-hover: #0070bd;
+  --login-btn-active: #00528a;
+}
