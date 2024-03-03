@@ -1,0 +1,54 @@
+.notes-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .arrow-icon {
+    width: 24px;
+    margin-bottom: 10px;
+  }
+  .notes-title {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .notes-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notes-list-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notes-list-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected-subject {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selected-subject h4 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .selected-subject p {
+    color: #555;
+    font-size: 1em;
+  }
+  
